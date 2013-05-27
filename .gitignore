@@ -7,36 +7,36 @@
 
 # Java class files
 *.class
-jarlist.cache
-
-#checkstyle
-.checkstyle
-
 # generated files
-bin/
-gen/
-out/
-
-# Local configuration file (sdk path, etc)
-local.properties
-release.properties
-
-# Eclipse project files
-.classpath
-.project
-.settings
-.settings/
-.DS_Store
+*/bin/
+*/gen/
+*/out/
 
 # libraries for the Eclipse/Ant build system
 */libs/
 
+# Local configuration file (sdk path, etc)
+local.properties
+release.properties
+default.properties
+
+# Eclipse project files
+.classpath
+.project
+
+.settings/
+.DS_Store
+
 #Intelli J project files
 *.idea/
 *.iml
+*/gen-external-apklibs
+*.iml
+*.ipr
+*.iws
 
 #Maven project files
-target/
+*/target/
 
 #Maven release files
 *.releaseBackup
